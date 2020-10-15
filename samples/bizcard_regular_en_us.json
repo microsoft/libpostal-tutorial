@@ -1,0 +1,280 @@
+{
+    "status": "succeeded",
+    "createdDateTime": "2020-10-07T07:54:51Z",
+    "lastUpdatedDateTime": "2020-10-07T07:54:55Z",
+    "analyzeResult": {
+        "version": "2.1.0",
+        "readResults": [
+            {
+                "page": 1,
+                "angle": 0,
+                "width": 2592,
+                "height": 4608,
+                "unit": "pixel"
+            }
+        ],
+        "documentResults": [
+            {
+                "docType": "prebuilt:businesscard",
+                "pageRange": [
+                    1,
+                    1
+                ],
+                "fields": {
+                    "CompanyNames": {
+                        "type": "array",
+                        "valueArray": [
+                            {
+                                "type": "string",
+                                "valueString": "CONTOSO",
+                                "text": "CONTOSO",
+                                "boundingBox": [
+                                    532,
+                                    1567,
+                                    1326,
+                                    1573,
+                                    1327,
+                                    1725,
+                                    531,
+                                    1731
+                                ],
+                                "page": 1,
+                                "confidence": 0.982
+                            }
+                        ]
+                    },
+                    "ContactNames": {
+                        "type": "array",
+                        "valueArray": [
+                            {
+                                "type": "object",
+                                "valueObject": {
+                                    "FirstName": {
+                                        "type": "string",
+                                        "valueString": "Chris",
+                                        "text": "Chris",
+                                        "boundingBox": [
+                                            1568,
+                                            2018,
+                                            1938,
+                                            2015,
+                                            1934,
+                                            2159,
+                                            1563,
+                                            2159
+                                        ],
+                                        "page": 1
+                                    },
+                                    "LastName": {
+                                        "type": "string",
+                                        "valueString": "Smith",
+                                        "text": "Smith",
+                                        "boundingBox": [
+                                            1966,
+                                            2015,
+                                            2396,
+                                            2016,
+                                            2392,
+                                            2162,
+                                            1961,
+                                            2159
+                                        ],
+                                        "page": 1
+                                    }
+                                },
+                                "text": "Chris Smith",
+                                "boundingBox": [
+                                    1563.7,
+                                    2012.1,
+                                    2396,
+                                    2016,
+                                    2395.3,
+                                    2162.9,
+                                    1563,
+                                    2159
+                                ],
+                                "confidence": 0.99
+                            }
+                        ]
+                    },
+                    "JobTitles": {
+                        "type": "array",
+                        "valueArray": [
+                            {
+                                "type": "string",
+                                "valueString": "Senior Researcher",
+                                "text": "Senior Researcher",
+                                "boundingBox": [
+                                    1580.2,
+                                    2200.3,
+                                    2120.1,
+                                    2210,
+                                    2118.9,
+                                    2279.2,
+                                    1579,
+                                    2269.5
+                                ],
+                                "page": 1,
+                                "confidence": 0.99
+                            }
+                        ]
+                    },
+                    "Departments": {
+                        "type": "array",
+                        "valueArray": [
+                            {
+                                "type": "string",
+                                "valueString": "Cloud & Al Department",
+                                "text": "Cloud & Al Department",
+                                "boundingBox": [
+                                    1583.1,
+                                    2284,
+                                    2280,
+                                    2294,
+                                    2278.9,
+                                    2368.1,
+                                    1582,
+                                    2358
+                                ],
+                                "page": 1,
+                                "confidence": 0.989
+                            }
+                        ]
+                    },
+                    "Emails": {
+                        "type": "array",
+                        "valueArray": [
+                            {
+                                "type": "string",
+                                "valueString": "chris.smith@contoso.com",
+                                "text": "chris.smith@contoso.com",
+                                "boundingBox": [
+                                    1579,
+                                    2382,
+                                    2324,
+                                    2382,
+                                    2325,
+                                    2451,
+                                    1579,
+                                    2447
+                                ],
+                                "page": 1,
+                                "confidence": 0.99
+                            }
+                        ]
+                    },
+                    "Websites": {
+                        "type": "array",
+                        "valueArray": [
+                            {
+                                "type": "string",
+                                "valueString": "https://www.contoso.com/",
+                                "text": "https://www.contoso.com/",
+                                "boundingBox": [
+                                    1578,
+                                    2459,
+                                    2372,
+                                    2458,
+                                    2374,
+                                    2539,
+                                    1576,
+                                    2538
+                                ],
+                                "page": 1,
+                                "confidence": 0.991
+                            }
+                        ]
+                    },
+                    "MobilePhones": {
+                        "type": "array",
+                        "valueArray": [
+                            {
+                                "type": "phoneNumber",
+                                "valuePhoneNumber": "+19871234567",
+                                "text": "+1 (987) 123-4567",
+                                "boundingBox": [
+                                    749,
+                                    2533,
+                                    1274,
+                                    2533,
+                                    1274,
+                                    2602,
+                                    749,
+                                    2602
+                                ],
+                                "page": 1,
+                                "confidence": 0.99
+                            }
+                        ]
+                    },
+                    "OtherPhones": {
+                        "type": "array",
+                        "valueArray": [
+                            {
+                                "type": "phoneNumber",
+                                "valuePhoneNumber": "+19872135674",
+                                "text": "+1 (987) 213-5674",
+                                "boundingBox": [
+                                    737.8,
+                                    2620.8,
+                                    1272,
+                                    2619.1,
+                                    1272.2,
+                                    2688,
+                                    738,
+                                    2689.7
+                                ],
+                                "page": 1,
+                                "confidence": 0.988
+                            }
+                        ]
+                    },
+                    "Faxes": {
+                        "type": "array",
+                        "valueArray": [
+                            {
+                                "type": "phoneNumber",
+                                "valuePhoneNumber": "+19873126745",
+                                "text": "+1 (987) 312-6745",
+                                "boundingBox": [
+                                    746.8,
+                                    2707.7,
+                                    1286,
+                                    2706,
+                                    1286.2,
+                                    2774.1,
+                                    747,
+                                    2775.8
+                                ],
+                                "page": 1,
+                                "confidence": 0.99
+                            }
+                        ]
+                    },
+                    "Addresses": {
+                        "type": "array",
+                        "valueArray": [
+                            {
+                                "type": "string",
+                                "valueString": "4001 1st Ave NE Redmond, WA 98052",
+                                "text": "4001 1st Ave NE Redmond, WA 98052",
+                                "boundingBox": [
+                                    408.4,
+                                    2782.6,
+                                    1518,
+                                    2789,
+                                    1517.6,
+                                    2861.6,
+                                    408,
+                                    2855.3
+                                ],
+                                "page": 1,
+                                "confidence": 0.988
+                            }
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

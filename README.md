@@ -1,5 +1,14 @@
+# libpostal Tutorial
 
-# Contributing
+Our pre-built vertical analyzers extract information including addresses from documents. The addresses are raw texts, and we can utilize the open source tool `libpostal` to parse the structured information from the full addresses. The core library of `libpostal` is written in C while it supports language binding for Python, Ruby, Java, PHP and NodeJS.
+
+This tutorial demonstrates how to use the `libpostal` Python binding to get the structured information from analyzed results.
+
+## Reference
+
+* libpostal - <https://github.com/openvenues/libpostal>
+
+## Contributing
 
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
@@ -13,7 +22,7 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
 
-# Legal Notices
+## Legal Notices
 
 Microsoft and any contributors grant you a license to the Microsoft documentation and other content
 in this repository under the [Creative Commons Attribution 4.0 International Public License](https://creativecommons.org/licenses/by/4.0/legalcode),
