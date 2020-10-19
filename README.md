@@ -1,6 +1,8 @@
 # libpostal Tutorial
 
-Our pre-built vertical analyzers extract information including addresses from documents. The addresses are raw texts, and we can utilize the open source tool `libpostal` to parse the structured information from the full addresses. The core library of `libpostal` is written in C while it supports language binding for Python, Ruby, Java, PHP and NodeJS.
+Form Recognizer extract semantic information from a document. For fields of address, they are raw texts but often times customers want more detailed information such as street names, cities and ZIP Codes.
+
+To enable address split on top of current form recognizer service, one may utilize the open source tool `libpostal` to parse out tructured information from the full addresses. The core library of libpostal is written in C while it supports language binding for Python, Ruby, Java, PHP and NodeJS.
 
 This tutorial demonstrates how to use the `libpostal` Python binding to get the structured information from analyzed results.
 
